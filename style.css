@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+body {
+  font-family: 'Cardo';
+  line-height: 1.4;
+  background-color: black;
+  width: 800px;
+  margin: 30px auto;
+}
+#background1{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  background-size: cover;
+  border: none;
+}
+
+#background2{
+  position: absolute;
+  width: 100%;
+  top: 380px;
+  left: 0px;
+  z-index: -2;
+  background-size: cover;
+  border: none;
+}
+
+#background3{
+  position: absolute;
+  width: 100%;
+  top: 750px;
+  left: 0px;
+  z-index: -3;
+  background-size: cover;
+  border: none;
+}
+
+#background4{
+  position: absolute;
+  width: 100%;
+  top: 1100px;
+  left: 0px;
+  z-index: -4;
+  background-size: cover;
+  border: none;
+}
+
+#background5{
+  position: absolute;
+  width: 100%;
+  top: 1400px;
+  left: 0px;
+  z-index: -5;
+  background-size: cover;
+  border: none;
+}
+
+.stretch{
+  min-width:100%;
+  min-height:100%;
+  width:auto;
+  height:auto;
+}
+
+form {
+  background-color: white;
+  padding: 2.0rem 2.0rem;
+  border-radius: 2.0rem;
+  width: 665px;
+  margin: auto;
+ 
+}
+
+
+header {
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+.submit-button{
+  width: 100%;
+  padding: 0.75rem;
+  background: rgb(138, 231, 250);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.text-area{
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.input-heading{
+  margin: 0px auto 1.25rem 0;
+  padding: 0.25rem;
+}
+
+.form-inputs{
+    width: 167px;
+}
+
+
+/*Radio Button Section */
+
+
+/* HIDE RADIO */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+ 
+
+}
+
+/* IMAGE STYLES */
+input[type=radio] + img {
+  cursor: pointer;
+  width: 120px;
+  height: auto;
+}
+
+
+
+/*Radio Labels*/
+input[type=radio] + label {
+  color: #000;
+  cursor: pointer;
+  
+} 
+input[type=radio]:checked + label {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  filter: brightness(1.3) drop-shadow(1px 3px 1px black);
+} 
+
+div.playstyle {
+  float: left;
+  margin: 5px;
+}
+
+
+
+/*End Radio Button Section */
+/*___________________________________________*/
+/*Checkbox Section */
+
+
+/*HIDE CHECKBOX*/
+input[type=checkbox] { 
+  position: absolute;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+
+}
+
+/* IMAGE STYLES */
+input[type=checkbox] + img {
+  cursor: pointer;
+  width: 120px;
+
+}
+
+
+
+/*Alter checked vs. non-checked civ labels */
+input[type=checkbox] + label {
+  color: #000;
+  cursor: pointer;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #000;
+  font-weight: bold;
+  text-transform:uppercase;
+  filter: brightness(1.3) drop-shadow(3px 6px 3px black);
+} 
+
+
+div.civs {
+    float: left;
+    margin: 2px; 
+}
+div p{
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*End Checkbox Section*/
+
+
+/*hover effect for both radio and checkbox*/
+
+.playstyle:hover{
+  filter: brightness(1.3);
+  font-weight: bold;
+}
+
+.civs:hover{
+  filter: brightness(1.3);
+  font-weight: bold;
+}
+
+.submit-button:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  filter: brightness(1.3);
+}
+/*end hover effect*/
+
+.text-area{
+  display: inline-block;
+}
+
+#civ-checkboxes{
+  display: inline-block;
+}
+
+#textarea-label {
+  padding: 35px 0px 10px;
+}
