@@ -4,14 +4,14 @@ body {
   font-family: 'Cardo';
   line-height: 1.4;
   background-color: black;
-  width: 800px;
-  margin: 30px auto;
+  width: 50%;
+  margin: 2rem auto;
 }
 #background1{
   position: absolute;
   width: 100%;
-  top: 0px;
-  left: 0px;
+  top: 0%;
+  left: 0%;
   z-index: -1;
   background-size: cover;
   border: none;
@@ -20,8 +20,8 @@ body {
 #background2{
   position: absolute;
   width: 100%;
-  top: 380px;
-  left: 0px;
+  top: 23.75rem;
+  left: 0%;
   z-index: -2;
   background-size: cover;
   border: none;
@@ -30,8 +30,8 @@ body {
 #background3{
   position: absolute;
   width: 100%;
-  top: 750px;
-  left: 0px;
+  top: 46.88rem;
+  left: 0%;
   z-index: -3;
   background-size: cover;
   border: none;
@@ -40,8 +40,8 @@ body {
 #background4{
   position: absolute;
   width: 100%;
-  top: 1100px;
-  left: 0px;
+  top: 68.75rem;
+  left: 0%;
   z-index: -4;
   background-size: cover;
   border: none;
@@ -50,8 +50,8 @@ body {
 #background5{
   position: absolute;
   width: 100%;
-  top: 1400px;
-  left: 0px;
+  top: 87.5rem;
+  left: 0%;
   z-index: -5;
   background-size: cover;
   border: none;
@@ -68,7 +68,7 @@ form {
   background-color: white;
   padding: 2.0rem 2.0rem;
   border-radius: 2.0rem;
-  width: 669px;
+  width: 41.9rem;
   margin: auto;
  
 }
