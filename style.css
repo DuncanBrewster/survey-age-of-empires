@@ -66,8 +66,8 @@ body {
 
 form {
   background-color: white;
-  padding: 2.0rem 2.0rem;
-  border-radius: 2.0rem;
+  padding: 2rem 2rem;
+  border-radius: 2rem;
   width: 41.9rem;
   margin: auto;
 }
@@ -75,7 +75,7 @@ form {
 
 header {
   text-align: center;
-  padding: 0px 0px 20px 0px;
+  padding: 0% 0% 1.25% 0%;
 }
 .submit-button{
   width: 100%;
