@@ -1,0 +1,23 @@
+{
+  "name": "survey-age-of-empires",
+  "version": "1.0.0",
+  "description": "A survey about the real-time strategy game Age of Empires II.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuncanBrewster/survey-age-of-empires.git"
+  },
+  "author": "Duncan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuncanBrewster/survey-age-of-empires/issues"
+  },
+  "homepage": "https://github.com/DuncanBrewster/survey-age-of-empires#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

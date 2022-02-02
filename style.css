@@ -4,55 +4,16 @@ body {
   font-family: 'Cardo';
   line-height: 1.4;
   background-color: black;
-  width: 50%;
-  margin: 2rem auto;
+  /* width: 50%; */
+  margin: 5rem auto ;
 }
 #background1{
-  position: absolute;
-  width: 100%;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   top: 0%;
   left: 0%;
   z-index: -1;
-  background-size: cover;
-  border: none;
-}
-
-#background2{
-  position: absolute;
-  width: 100%;
-  top: 23.75rem;
-  left: 0%;
-  z-index: -2;
-  background-size: cover;
-  border: none;
-}
-
-#background3{
-  position: absolute;
-  width: 100%;
-  top: 46.88rem;
-  left: 0%;
-  z-index: -3;
-  background-size: cover;
-  border: none;
-}
-
-#background4{
-  position: absolute;
-  width: 100%;
-  top: 68.75rem;
-  left: 0%;
-  z-index: -4;
-  background-size: cover;
-  border: none;
-}
-
-#background5{
-  position: absolute;
-  width: 100%;
-  top: 87.5rem;
-  left: 0%;
-  z-index: -5;
   background-size: cover;
   border: none;
 }
@@ -64,12 +25,18 @@ body {
   height:auto;
 }
 
+.survey {
+  display: block;
+  text-align: center;
+}
+
 form {
   background-color: white;
-  padding: 2rem 2rem;
+  padding: 20px 20px;
   border-radius: 2rem;
   width: 41.9rem;
   margin: auto;
+  display: inline-block;
 }
 
 
@@ -134,8 +101,13 @@ input[type=radio]:checked + label {
   filter: brightness(1.3) drop-shadow(1px 3px 1px black);
 } 
 
+.preference {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 div.playstyle {
-  float: left;
   margin: 5px;
 }
 
@@ -177,10 +149,15 @@ input[type=checkbox]:checked + label {
   filter: brightness(1.3) drop-shadow(3px 6px 3px black);
 } 
 
+.shields{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
 
 div.civs {
     float: left;
-    margin: 2px; 
+    margin: 0px; 
 }
 div p{
   text-align: center;
@@ -219,4 +196,20 @@ div p{
 
 #textarea-label {
   padding: 35px 0px 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  
+  form {
+    width: 35rem;
+  }
+  .preference {
+    display: block;
+  }
+}
+@media screen and (max-width: 610px) {
+  
+  form {
+    width: 20rem;
+  }
 }
